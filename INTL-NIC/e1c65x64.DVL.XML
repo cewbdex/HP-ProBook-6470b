@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<Data> 
+<AssessmentScore ScoreName="e1c65x64.x64.CodeAnalysis.Summary" ScoreValue="9" ScoreUnit="Types of defects seen" />
+<AssessmentScore ScoreName="e1c65x64.x64.CodeAnalysis.Defect.28159" ScoreValue="1" ScoreUnit="" />
+<AssessmentScore ScoreName="e1c65x64.x64.CodeAnalysis.Defect.26110" ScoreValue="4" ScoreUnit="" />
+<AssessmentScore ScoreName="e1c65x64.x64.CodeAnalysis.Defect.26167" ScoreValue="1" ScoreUnit="" />
+<AssessmentScore ScoreName="e1c65x64.x64.CodeAnalysis.Defect.26135" ScoreValue="6" ScoreUnit="" />
+<AssessmentScore ScoreName="e1c65x64.x64.CodeAnalysis.Defect.28193" ScoreValue="1" ScoreUnit="" />
+<AssessmentScore ScoreName="e1c65x64.x64.CodeAnalysis.Defect.28023" ScoreValue="1" ScoreUnit="" />
+<AssessmentScore ScoreName="e1c65x64.x64.CodeAnalysis.Defect.26165" ScoreValue="1" ScoreUnit="" />
+<AssessmentScore ScoreName="e1c65x64.x64.CodeAnalysis.Defect.6246" ScoreValue="2" ScoreUnit="" />
+<AssessmentScore ScoreName="e1c65x64.x64.CodeAnalysis.Defect.6305" ScoreValue="1" ScoreUnit="" />
+
+<AssessmentScore ScoreName="e1c65x64.x64.General.XMLTimeStamp" ScoreValue="0" ScoreUnit="12/1/2015 9:13:10 AM" />
+<AssessmentScore ScoreName="e1c65x64.x64.General.DriverBinary" ScoreValue="0" ScoreUnit="e1c65x64.sys" />
+<AssessmentScore ScoreName="e1c65x64.x64.General.BinaryTimeStamp" ScoreValue="0" ScoreUnit="12/1/2015 7:54:07 AM" />
+<AssessmentScore ScoreName="e1c65x64.x64.General.DriverType" ScoreValue="0" ScoreUnit="ndis" />
+<AssessmentScore ScoreName="e1c65x64.x64.General.DriverSize" ScoreValue="15150" ScoreUnit="LOC" />
+<AssessmentScore ScoreName="e1c65x64.x64.General.DriverVersion" ScoreValue="0" ScoreUnit="0" />
+<AssessmentScore ScoreName="e1c65x64.x64.General.Libs" ScoreValue="2" ScoreUnit="Number of external libraries used" />
+<AssessmentScore ScoreName="e1c65x64.x64.SDV.Version" ScoreValue="0" ScoreUnit="3.0.483.0" />
+<AssessmentScore ScoreName="e1c65x64.x64.SDV.DriverEntry.fun_DriverEntry" ScoreValue="0" ScoreUnit="" />
+<AssessmentScore ScoreName="e1c65x64.x64.SDV.DriverEntry.fun_MINIPORT_ADD_DEVICE" ScoreValue="0" ScoreUnit="" />
+<AssessmentScore ScoreName="e1c65x64.x64.SDV.DriverEntry.fun_MINIPORT_CANCEL_OID_REQUEST_1" ScoreValue="0" ScoreUnit="" />
+<AssessmentScore ScoreName="e1c65x64.x64.SDV.DriverEntry.fun_MINIPORT_CANCEL_SEND" ScoreValue="0" ScoreUnit="" />
+<AssessmentScore ScoreName="e1c65x64.x64.SDV.DriverEntry.fun_MINIPORT_CHECK_FOR_HANG" ScoreValue="0" ScoreUnit="" />
+<AssessmentScore ScoreName="e1c65x64.x64.SDV.DriverEntry.fun_MINIPORT_DEVICE_PNP_EVENT_NOTIFY" ScoreValue="0" ScoreUnit="" />
+<AssessmentScore ScoreName="e1c65x64.x64.SDV.DriverEntry.fun_MINIPORT_DISABLE_INTERRUPT_1" ScoreValue="0" ScoreUnit="" />
+<AssessmentScore ScoreName="e1c65x64.x64.SDV.DriverEntry.fun_MINIPORT_DISABLE_MESSAGE_INTERRUPT_1" ScoreValue="0" ScoreUnit="" />
+<AssessmentScore ScoreName="e1c65x64.x64.SDV.DriverEntry.fun_MINIPORT_ENABLE_INTERRUPT_1" ScoreValue="0" ScoreUnit="" />
+<AssessmentScore ScoreName="e1c65x64.x64.SDV.DriverEntry.fun_MINIPORT_ENABLE_MESSAGE_INTERRUPT_1" ScoreValue="0" ScoreUnit="" />
+<AssessmentScore ScoreName="e1c65x64.x64.SDV.DriverEntry.fun_MINIPORT_FILTER_RESOURCE_REQUIREMENTS" ScoreValue="0" ScoreUnit="" />
+<AssessmentScore ScoreName="e1c65x64.x64.SDV.DriverEntry.fun_MINIPORT_HALT" ScoreValue="0" ScoreUnit="" />
+<AssessmentScore ScoreName="e1c65x64.x64.SDV.DriverEntry.fun_MINIPORT_INITIALIZE" ScoreValue="0" ScoreUnit="" />
+<AssessmentScore ScoreName="e1c65x64.x64.SDV.DriverEntry.fun_MINIPORT_INTERRUPT_DPC_1" ScoreValue="0" ScoreUnit="" />
+<AssessmentScore ScoreName="e1c65x64.x64.SDV.DriverEntry.fun_MINIPORT_ISR_1" ScoreValue="0" ScoreUnit="" />
+<AssessmentScore ScoreName="e1c65x64.x64.SDV.DriverEntry.fun_MINIPORT_MESSAGE_INTERRUPT_1" ScoreValue="0" ScoreUnit="" />
+<AssessmentScore ScoreName="e1c65x64.x64.SDV.DriverEntry.fun_MINIPORT_PAUSE" ScoreValue="0" ScoreUnit="" />
+<AssessmentScore ScoreName="e1c65x64.x64.SDV.DriverEntry.fun_MINIPORT_PROCESS_SG_LIST" ScoreValue="0" ScoreUnit="" />
+<AssessmentScore ScoreName="e1c65x64.x64.SDV.DriverEntry.fun_MINIPORT_REMOVE_DEVICE" ScoreValue="0" ScoreUnit="" />
+<AssessmentScore ScoreName="e1c65x64.x64.SDV.DriverEntry.fun_MINIPORT_RESET" ScoreValue="0" ScoreUnit="" />
+<AssessmentScore ScoreName="e1c65x64.x64.SDV.DriverEntry.fun_MINIPORT_RESTART" ScoreValue="0" ScoreUnit="" />
+<AssessmentScore ScoreName="e1c65x64.x64.SDV.DriverEntry.fun_MINIPORT_RETURN_NET_BUFFER_LISTS" ScoreValue="0" ScoreUnit="" />
+<AssessmentScore ScoreName="e1c65x64.x64.SDV.DriverEntry.fun_MINIPORT_SEND_NET_BUFFER_LISTS" ScoreValue="0" ScoreUnit="" />
+<AssessmentScore ScoreName="e1c65x64.x64.SDV.DriverEntry.fun_MINIPORT_SET_OPTIONS" ScoreValue="0" ScoreUnit="" />
+<AssessmentScore ScoreName="e1c65x64.x64.SDV.DriverEntry.fun_MINIPORT_SHUTDOWN" ScoreValue="0" ScoreUnit="" />
+<AssessmentScore ScoreName="e1c65x64.x64.SDV.DriverEntry.fun_MINIPORT_START_DEVICE" ScoreValue="0" ScoreUnit="" />
+<AssessmentScore ScoreName="e1c65x64.x64.SDV.DriverEntry.fun_MINIPORT_SYNCHRONIZE_INTERRUPT_1" ScoreValue="0" ScoreUnit="" />
+<AssessmentScore ScoreName="e1c65x64.x64.SDV.DriverEntry.fun_MINIPORT_SYNCHRONIZE_INTERRUPT_2" ScoreValue="0" ScoreUnit="" />
+<AssessmentScore ScoreName="e1c65x64.x64.SDV.ActiveRuleTotal" ScoreValue="50" ScoreUnit="Total rules available" />
+<AssessmentScore ScoreName="e1c65x64.x64.SDV.Rule.Irql_MCM_Function" ScoreValue="0" ScoreUnit="SDV_PASSED" />
+<AssessmentScore ScoreName="e1c65x64.x64.SDV.Rule.NdisMNetPnPEventInOIDRequest" ScoreValue="0" ScoreUnit="SDV_PASSED" />
+<AssessmentScore ScoreName="e1c65x64.x64.SDV.Rule.SpinlockDprRelease" ScoreValue="0" ScoreUnit="SDV_PASSED" />
+<AssessmentScore ScoreName="e1c65x64.x64.SDV.Rule.SpinlockRelease" ScoreValue="0" ScoreUnit="SDV_PASSED" />
+<AssessmentScore ScoreName="e1c65x64.x64.SDV.Rule.NdisMFreeSharedMemory" ScoreValue="0" ScoreUnit="SDV_PASSED" />
+<AssessmentScore ScoreName="e1c65x64.x64.SDV.Rule.Irql_IM_Function" ScoreValue="0" ScoreUnit="SDV_PASSED" />
+<AssessmentScore ScoreName="e1c65x64.x64.SDV.Rule.NdisAllocateGenericObject" ScoreValue="0" ScoreUnit="SDV_PASSED" />
+<AssessmentScore ScoreName="e1c65x64.x64.SDV.Rule.Irql_Miniport_Driver_Function" ScoreValue="0" ScoreUnit="SDV_PASSED" />
+<AssessmentScore ScoreName="e1c65x64.x64.SDV.Rule.pre_islwf" ScoreValue="2" ScoreUnit="SDV_NA" />
+<AssessmentScore ScoreName="e1c65x64.x64.SDV.Rule.Irql_Filter_Driver_Function" ScoreValue="0" ScoreUnit="SDV_PASSED" />
+<AssessmentScore ScoreName="e1c65x64.x64.SDV.Rule.pre_isminiport" ScoreValue="1" ScoreUnit="SDV_FAILED" />
+<AssessmentScore ScoreName="e1c65x64.x64.SDV.Rule.NdisReEnumerateProtocolBindings" ScoreValue="0" ScoreUnit="SDV_PASSED" />
+<AssessmentScore ScoreName="e1c65x64.x64.SDV.Rule.PeriodicTimer" ScoreValue="0" ScoreUnit="SDV_PASSED" />
+<AssessmentScore ScoreName="e1c65x64.x64.SDV.Rule.NdisOpenConfigurationEx" ScoreValue="0" ScoreUnit="SDV_PASSED" />
+<AssessmentScore ScoreName="e1c65x64.x64.SDV.Rule.Irql_Timer_Function" ScoreValue="0" ScoreUnit="SDV_PASSED" />
+<AssessmentScore ScoreName="e1c65x64.x64.SDV.Rule.NdisMDeregisterInterruptEx" ScoreValue="0" ScoreUnit="SDV_PASSED" />
+<AssessmentScore ScoreName="e1c65x64.x64.SDV.Rule.SpinlockBalanced" ScoreValue="0" ScoreUnit="SDV_PASSED" />
+<AssessmentScore ScoreName="e1c65x64.x64.SDV.Rule.DoubleCompleteWorkItem" ScoreValue="0" ScoreUnit="SDV_PASSED" />
+<AssessmentScore ScoreName="e1c65x64.x64.SDV.Rule.Flags_Irql" ScoreValue="0" ScoreUnit="SDV_PASSED" />
+<AssessmentScore ScoreName="e1c65x64.x64.SDV.Rule.WriteErrorLog" ScoreValue="0" ScoreUnit="SDV_PASSED" />
+<AssessmentScore ScoreName="e1c65x64.x64.SDV.Rule.NdisMMapIoSpace" ScoreValue="0" ScoreUnit="SDV_PASSED" />
+<AssessmentScore ScoreName="e1c65x64.x64.SDV.Rule.Irql_IrqlSetting_Function" ScoreValue="0" ScoreUnit="SDV_PASSED" />
+<AssessmentScore ScoreName="e1c65x64.x64.SDV.Rule.Irql_Interrupt_Function" ScoreValue="0" ScoreUnit="SDV_PASSED" />
+<AssessmentScore ScoreName="e1c65x64.x64.SDV.Rule.Irql_SendRcv_Function" ScoreValue="0" ScoreUnit="SDV_PASSED" />
+<AssessmentScore ScoreName="e1c65x64.x64.SDV.Rule.Init_RegisterSG" ScoreValue="1" ScoreUnit="SDV_FAILED" />
+<AssessmentScore ScoreName="e1c65x64.x64.SDV.Rule.Init_NdisAllocateIoWorkItem" ScoreValue="0" ScoreUnit="SDV_PASSED" />
+<AssessmentScore ScoreName="e1c65x64.x64.SDV.Rule.Irql_MCO_Function" ScoreValue="0" ScoreUnit="SDV_PASSED" />
+<AssessmentScore ScoreName="e1c65x64.x64.SDV.Rule.Irql_Protocol_Driver_Function" ScoreValue="0" ScoreUnit="SDV_PASSED" />
+<AssessmentScore ScoreName="e1c65x64.x64.SDV.Rule.Irql_Miscellaneous_Function" ScoreValue="0" ScoreUnit="SDV_PASSED" />
+<AssessmentScore ScoreName="e1c65x64.x64.SDV.Rule.NdisStallExecution_Delay" ScoreValue="0" ScoreUnit="SDV_PASSED" />
+<AssessmentScore ScoreName="e1c65x64.x64.SDV.Rule.DoubleComplete" ScoreValue="0" ScoreUnit="SDV_PASSED" />
+<AssessmentScore ScoreName="e1c65x64.x64.SDV.Rule.MiniportPause_Return" ScoreValue="0" ScoreUnit="SDV_PASSED" />
+<AssessmentScore ScoreName="e1c65x64.x64.SDV.Rule.Irql_CallManager_Function" ScoreValue="0" ScoreUnit="SDV_PASSED" />
+<AssessmentScore ScoreName="e1c65x64.x64.SDV.Rule.NdisMIndicateStatusEx" ScoreValue="0" ScoreUnit="SDV_PASSED" />
+<AssessmentScore ScoreName="e1c65x64.x64.SDV.Rule.NdisAllocateMemoryWithTagPriority" ScoreValue="0" ScoreUnit="SDV_PASSED" />
+<AssessmentScore ScoreName="e1c65x64.x64.SDV.Rule.Irql_Connection_Function" ScoreValue="0" ScoreUnit="SDV_PASSED" />
+<AssessmentScore ScoreName="e1c65x64.x64.SDV.Rule.Init_DeRegisterInterrupt" ScoreValue="1" ScoreUnit="SDV_FAILED" />
+<AssessmentScore ScoreName="e1c65x64.x64.SDV.Rule.SpinLock" ScoreValue="0" ScoreUnit="SDV_PASSED" />
+<AssessmentScore ScoreName="e1c65x64.x64.SDV.Rule.NdisMRegisterIoPortRange" ScoreValue="0" ScoreUnit="SDV_PASSED" />
+<AssessmentScore ScoreName="e1c65x64.x64.SDV.Rule.NdisAllocateMdl" ScoreValue="0" ScoreUnit="SDV_PASSED" />
+<AssessmentScore ScoreName="e1c65x64.x64.SDV.Rule.Init_RegisterInterrupt" ScoreValue="0" ScoreUnit="SDV_PASSED" />
+<AssessmentScore ScoreName="e1c65x64.x64.SDV.Rule.CancelTimerObject" ScoreValue="0" ScoreUnit="SDV_PASSED" />
+<AssessmentScore ScoreName="e1c65x64.x64.SDV.Rule.Irql_Synch_Function" ScoreValue="0" ScoreUnit="SDV_PASSED" />
+<AssessmentScore ScoreName="e1c65x64.x64.SDV.Rule.Irql_Interfaces_Function" ScoreValue="0" ScoreUnit="SDV_PASSED" />
+<AssessmentScore ScoreName="e1c65x64.x64.SDV.Rule.NdisQueryBindInstanceName" ScoreValue="0" ScoreUnit="SDV_PASSED" />
+<AssessmentScore ScoreName="e1c65x64.x64.SDV.Rule.pre_isprotocol" ScoreValue="2" ScoreUnit="SDV_NA" />
+<AssessmentScore ScoreName="e1c65x64.x64.SDV.Rule.SpinLockDpr" ScoreValue="0" ScoreUnit="SDV_PASSED" />
+<AssessmentScore ScoreName="e1c65x64.x64.SDV.Rule.NdisAllocateNetBuffer" ScoreValue="0" ScoreUnit="SDV_PASSED" />
+<AssessmentScore ScoreName="e1c65x64.x64.SDV.Rule.Irql_Gather_DMA_Function" ScoreValue="0" ScoreUnit="SDV_PASSED" />
+<AssessmentScore ScoreName="e1c65x64.x64.SDV.Rule.Irql_StatusIndication_Function" ScoreValue="0" ScoreUnit="SDV_PASSED" />
+<AssessmentScore ScoreName="e1c65x64.x64.SDV.Rule.NdisFDeregisterFilterDriver" ScoreValue="0" ScoreUnit="SDV_PASSED" />
+<AssessmentScore ScoreName="e1c65x64.x64.SDV.Rule.Irql_OID_Function" ScoreValue="0" ScoreUnit="SDV_PASSED" />
+<AssessmentScore ScoreName="e1c65x64.x64.SDV.Rule.Irql_NetBuffer_Function" ScoreValue="0" ScoreUnit="SDV_PASSED" />
+
+</Data>

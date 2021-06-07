@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Synaptics Drivers Release Notes</title>
+
+<style>
+body {
+margin: 0;
+padding: 0;
+font-family: Calibri,Tahoma, Arial;
+background-color: #fff;
+}
+
+#wrapper {
+width: 1200px;
+margin: 0px auto;
+background-color: #fff;
+}
+
+#header {
+margin: 0;
+padding: 0;
+padding-bottom: 0.5cm;
+padding-top: 0.5cm;
+padding-left: 0.5cm;
+height: 160px;
+text-align: left;
+background-color: #f1f1f1;
+}
+
+#header h1 {
+color: #333;
+margin: 0;
+padding-top: 20px;
+padding-bottom: 5px;
+font-size: 45px;
+letter-spacing: 4px;
+}
+
+#header h2 {
+color: #333;
+margin: 0;
+padding-top: 10px;
+padding-bottom: 5px;
+font-size: 17px;
+letter-spacing: 2px;
+}
+
+#container {
+width: 1200px;
+}
+
+#aside {
+float: left;
+width: 200px;
+display: block;
+}
+
+#aside p {
+padding: 25px;
+padding-left: 10px;
+padding-top: 7px;
+padding-bottom: 7px;
+text-align: justify;
+line-height: 19px;
+font-size: 16px;
+color: #999;
+}
+
+#footer {
+clear: both;
+margin: 0;
+padding: 0;
+height: 50px;
+background-color: #fff;
+}
+
+#footer h3 {
+color: #fff;
+padding: 0;
+margin: 0;
+padding-top: 10px;
+padding-bottom: 2px;
+font-size: 14px;
+letter-spacing: 2px;
+text-align: center;
+font-weight: normal;
+}
+
+#footer p {
+font-style: italic;
+font-size: 10px;
+padding: 0;
+margin: 0;
+text-align: center;
+}
+
+#section {
+float: left;
+width: 1200px;
+display: block;
+}
+
+.xxlargetText {
+font-size: 1.3em;
+}
+
+.issue {
+width: 450px;
+}
+.td {
+width: 100px;
+}
+
+.des {
+width: 70%;
+}
+
+#section #version {
+width: 1200px;
+margin: 0px auto;
+margin-top: 10px;
+margin-bottom: 10px;
+text-align: left;
+background-color: #fff;
+}
+
+#section #version #header {
+height: 10px;
+padding-top: 5px;
+padding-bottom: 15px;
+}
+
+#section #version #footer {
+clear: both;
+height: 20px;
+}
+
+#section #version #header h1 {
+color: #fff;
+margin: 0;
+padding-top: 10px;
+padding-bottom: 5px;
+font-size: 20px;
+letter-spacing: 4px;
+text-align: left;
+text-indent: 10px;
+}
+
+#version p {
+padding: 15px;
+padding-top: 7px;
+padding-bottom: 7px;
+text-align: justify;
+line-height: 19px;
+font-size: 14px;
+}
+
+#version #footer h3 {
+color: #fff;
+margin: 0;
+padding-top: 2px;
+padding-bottom: 2px;
+font-size: 14px;
+letter-spacing: 4px;
+text-align: right;
+font-weight: normal;
+font-style: italic;
+}
+
+@media screen and (max-width: 600px) {
+#wrapper, #container {
+width: 500px;
+}
+
+#aside, #section, #section #version {
+float: none;
+width: 100%;
+}
+
+#header {
+height: 90px;
+}
+
+#header h1 {
+font-size: 25px;
+padding-top: 10px;
+padding-bottom: 3px;
+}
+
+#header h2 {
+font-size: 13px;
+padding-top: 10px;
+padding-bottom: 3px;
+}
+
+#section #version #header {
+height: 20px;
+}
+
+#section #version #footer {
+height: 15px;
+}
+
+#section #version #header h1 {
+font-size: 12px;
+padding-top: 5px;
+padding-bottom: 2px;
+}
+
+#version #footer h3 {
+padding: 1px;
+font-size: 11px;
+}
+}
+
+
+</style>
+</head>
+<body>
+<div id="wrapper">
+<div id="header">
+<img src="http://www.synaptics.com/sites/all/themes/synaptics/logo.png" alt="Synaptics">
+<br />
+<br />
+Synaptics Driver Release Notes for Panasonic_PUWP
+<br><br>OS: 32-bit and 64-bit Windows 7, Windows 8, Windows 8.1 and Windows 10
+<br>
+Languages Supported:  English, Arabic, Portuguese (Brazil), Croatian, Czech, Danish, French, French Canadian, Finnish, Greek, German, Hungarian, Indonesian, Hebrew, Italian, Japanese, Korean, Spanish (Mexico), Dutch, Norwegian Bokmal, Polish, Portuguese, Romanian, Russian, Swedish, Slovakian, Spanish (Spain), Slovenian, Thai, Turkish, Traditional Chinese, and Simplified Chinese.
+</div>
+
+<div id="container">
+<div id="section">
+<br>
+<!--syna-insert-here-->
+<br>
+<div id="version"><div id="header"><strong>Version:  19.5.26.8
+
+  Date: 10-11-2018</strong></div><br><br>
+<table border="1" cellpadding="5">  
+<tbody>
+<tr>
+<th style="width:10%" bordercolor=white>Issue Number</th>
+<th style="width:20%" bordercolor=white>Description</th>
+<th style="width:40%" bordercolor=white>Root Cause</th>
+<th style="width:30%" bordercolor=white>Solution</th></tr>
+<tr>
+<td class="td">
+HDR-39864<font color="green">  &checkmark;</font>  </td>
+<td align="left" valign="top" class="issue">Primary &#8211; Secondary click swap issue on 19.5.26.6  </td>
+<td align="left" valign="top" class="issue">PersistState would be failed to write registry to keep swap status   </td>
+<td align="left" valign="top" class="issue">Porting fix of HDR-39688 and HDR-39801  </td>
+</tr>
+<tr>
+<td class="td">
+HDR-39903<font color="green">  &checkmark;</font>  </td>
+<td align="left" valign="top" class="issue">New PNPID request BM172 TM-03136-020, 021 (T1321 base HID-I2C, Legacy driver, PUWP), not PANAxxxx format  </td>
+<td align="left" valign="top" class="issue">Customer request  </td>
+<td align="left" valign="top" class="issue">Change PNPID  </td>
+</tr>
+<tr>
+<td class="td">
+HDR-39904<font color="green">  &checkmark;</font>  </td>
+<td align="left" valign="top" class="issue">New PNPID request FM182 TM-P3490-001 (Proton base firmware PTP, HID-I2C, filter driver, PUWP), not PANAxxxx format  </td>
+<td align="left" valign="top" class="issue">Customer request  </td>
+<td align="left" valign="top" class="issue">Change PnPID  </td>
+</tr>
+</tbody></table>
+<br> 
+<div id="footer">
+</div>
+</div>
+
+<br>
+<div id="version"><div id="header"><strong>Version:  19.5.26.7
+
+Date: 10-05-2018</strong></div><br><br>
+<table border="1" cellpadding="5">
+<tbody>
+<tr>
+<th style="width:10%" bordercolor=white>Issue Number</th>
+<th style="width:20%" bordercolor=white>Description</th>
+<th style="width:40%" bordercolor=white>Root Cause</th>
+<th style="width:30%" bordercolor=white>Solution</th></tr>
+<tr>
+<td class="td">
+HDR-39689<font color="green">  &checkmark;</font>  </td>
+<td align="left" valign="top" class="issue">PUWP UI app name change request  </td>
+<td align="left" valign="top" class="issue">Customer request  </td>
+<td align="left" valign="top" class="issue">Change APPX name  </td>
+</tr>
+</tbody></table>
+<br>
+<div id="footer">
+</div>
+</div>
+
+<br>
+<div id="version"><div id="header"><strong>Version:  19.5.26.6
+
+Date: 08-09-2018</strong></div><br><br>
+<table border="1" cellpadding="5">
+<tbody>
+<tr>
+<th style="width:10%" bordercolor=white>Issue Number</th>
+<th style="width:20%" bordercolor=white>Description</th>
+<th style="width:40%" bordercolor=white>Root Cause</th>
+<th style="width:30%" bordercolor=white>Solution</th></tr>
+<tr>
+<td class="td">
+HDR-39437<font color="green">  &checkmark;</font>  </td>
+<td align="left" valign="top" class="issue">[Panasonic_PUWP_Win10] 1F / 2F horizontal scrolling has no function by Adobe Reader PDF file & MS Excel 2016.  </td>
+<td align="left" valign="top" class="issue">Scrolling settings are altered.  </td>
+<td align="left" valign="top" class="issue">Change scrolling not through kernel  </td>
+</tr>
+<tr>
+<td class="td">
+HDR-39438<font color="green">  &checkmark;</font>  </td>
+<td align="left" valign="top" class="issue">[Panasonic_PUWP_Win10] 1F / 2F horizontal & vertical scrolling has no function by Weather app.  </td>
+<td align="left" valign="top" class="issue">Failed to use Helper to do injection  </td>
+<td align="left" valign="top" class="issue">Not use Helper to do injection  </td>
+</tr>
+<tr>
+<td class="td">
+HDR-39459<font color="green">  &checkmark;</font>  </td>
+<td align="left" valign="top" class="issue">PUWP driver : Touchpad pointing speed in App GUI and mouse property GUI are asynchronies  </td>
+<td align="left" valign="top" class="issue">Customer requested.  </td>
+<td align="left" valign="top" class="issue">Remove Touchpad Pointing Speed from UI  </td>
+</tr>
+<tr>
+<td class="td">
+HDR-39492<font color="green">  &checkmark;</font>  </td>
+<td align="left" valign="top" class="issue">[Panasonic_PUWP_Win10] MTP driver GUI and SynDAppforPanasonic.appx can be opened at the same time.  </td>
+<td align="left" valign="top" class="issue">Not check whether the DCH driver is intalled  </td>
+<td align="left" valign="top" class="issue">Make sure the DCH driver installed to allow APPX be executed.  </td>
+</tr>
+<tr>
+<td class="td">
+HDR-39516<font color="green">  &checkmark;</font>  </td>
+<td align="left" valign="top" class="issue">New PNPID request BM172 TM-03136-020, 021 (T1321 base HID-I2C, Legacy driver, PUWP)  </td>
+<td align="left" valign="top" class="issue">Customer requested.  </td>
+<td align="left" valign="top" class="issue">Add new HWID : PANA0002  </td>
+</tr>
+<tr>
+<td class="td">
+HDR-39517<font color="green">  &checkmark;</font>  </td>
+<td align="left" valign="top" class="issue">New PNPID request FM182 TM-P3490-001 (Proton base firmware PTP, HID-I2C, filter driver, PUWP)  </td>
+<td align="left" valign="top" class="issue">Customer requested  </td>
+<td align="left" valign="top" class="issue">Add new HWID : PANA0003  </td>
+</tr>
+<tr>
+<td class="td">
+HDR-39537<font color="green">  &checkmark;</font>  </td>
+<td align="left" valign="top" class="issue">19.5.26.5 Primary and Secondary click swap function is not consistent with 19.3.10.45  </td>
+<td align="left" valign="top" class="issue">Not synchronize with mouse properties  </td>
+<td align="left" valign="top" class="issue">Synchronize button status with mouse properties  </td>
+</tr>
+</tbody></table>
+<br>
+<div id="footer">
+</div>
+</div>
+
+<br>
+<div id="version"><div id="header"><strong>Version:  19.5.26.5
+
+Date: 07-20-2018</strong></div><br><br>
+<table border="1" cellpadding="5">
+<tbody>
+<tr>
+<th style="width:10%" bordercolor=white>Issue Number</th>
+<th style="width:20%" bordercolor=white>Description</th>
+<th style="width:40%" bordercolor=white>Root Cause</th>
+<th style="width:30%" bordercolor=white>Solution</th></tr>
+<tr>
+<td class="td">
+HDR-39061<font color="green">  &checkmark;</font>  </td>
+<td align="left" valign="top" class="issue">[Panasonic_PUWP] App can't be downloaded from Store, error code: 0x803FB005  </td>
+<td align="left" valign="top" class="issue">The setting is not correct in the appxmanifest.xml of centennial App.
+MSFT Store will use wrong SoftwareID to install centennial App.  </td>
+<td align="left" valign="top" class="issue">Change the setting  in the appxmanifest.xml of centennial App.
+MSFT store app can use correct SoftwareID to install centennial App.  </td>
+</tr>
+<tr>
+<td class="td">
+HDR-39439<font color="green">  &checkmark;</font>  </td>
+<td align="left" valign="top" class="issue">[Panasonic_PUWP_Win10] Gesture Filtering can't be adjusted & switched.  </td>
+<td align="left" valign="top" class="issue">The feature is not included in customer' project  </td>
+<td align="left" valign="top" class="issue">Remove GestureFilter from UI  </td>
+</tr>
+</tbody></table>
+<br>
+<div id="footer">
+</div>
+</div>
+
+<br>
+<div id="version"><div id="header"><strong>Version:  19.5.26.4
+
+Date: 07-13-2018</strong></div><br><br>
+<tr>
+<td class="td">
+</td><table border="1" cellpadding="5">
+<tbody>
+<tr>
+<th style="width:10%" bordercolor=white>Issue Number</th>
+<th style="width:20%" bordercolor=white>Description</th>
+<th style="width:40%" bordercolor=white>Root Cause</th>
+<th style="width:30%" bordercolor=white>Solution</th></tr>
+<tr>
+<td class="td">
+HDR-39412<font color="green">  &checkmark;</font>  </td>
+<td align="left" valign="top" class="issue">PUWP.inf group PNPID all switch to UXUI from SGS  </td>
+<td align="left" valign="top" class="issue">Customer requested.  </td>
+<td align="left" valign="top" class="issue">Change UI style from SGX to UXUI  </td>
+</tr>
+</tbody></table>
+<br>
+<div id="footer">
+</div>
+</div>
+
+<br>
+<div id="version"><div id="header"><strong>Version:  19.5.26.3
+
+Date: 06-07-2018</strong></div><br><br>
+<table border="1" cellpadding="5">
+<tbody>
+<tr>
+<th style="width:10%" bordercolor=white>Issue Number</th>
+<th style="width:20%" bordercolor=white>Description</th>
+<th style="width:40%" bordercolor=white>Root Cause</th>
+<th style="width:30%" bordercolor=white>Solution</th></tr>
+<tr>
+<td class="td">
+HDR-39093<font color="green">  &checkmark;</font>  </td>
+<td align="left" valign="top" class="issue">PUWP UI app name change request  </td>
+<td align="left" valign="top" class="issue">Customer request.  </td>
+<td align="left" valign="top" class="issue">Change APPX name  </td>
+</tr>
+</tbody></table>
+<br>
+<div id="footer">
+</div>
+</div>
+
+<br>
+<div id="version"><div id="header"><strong>Version:  19.5.26.2
+
+Date: 06-06-2018</strong></div><br><br>
+<table border="1" cellpadding="5">
+<tbody>
+<tr>
+<th style="width:10%" bordercolor=white>Issue Number</th>
+<th style="width:20%" bordercolor=white>Description</th>
+<th style="width:40%" bordercolor=white>Root Cause</th>
+<th style="width:30%" bordercolor=white>Solution</th></tr>
+<tr>
+<td class="td">
+HDR-38808<font color="green">  &checkmark;</font>  </td>
+<td align="left" valign="top" class="issue">New app build request for Panasonic PUWP  </td>
+<td align="left" valign="top" class="issue">  </td>
+<td align="left" valign="top" class="issue">  </td>
+</tr>
+</tbody></table>
+<br>
+<div id="footer">
+</div>
+</div>
+
+<br>
+<div id="version"><div id="header"><strong>Version:  19.5.26.1
+
+Date: 04-12-2018</strong></div><br><br>
+<table border="1" cellpadding="5">
+<tbody>
+<tr>
+<th style="width:10%" bordercolor=white>Issue Number</th>
+<th style="width:20%" bordercolor=white>Description</th>
+<th style="width:40%" bordercolor=white>Root Cause</th>
+<th style="width:30%" bordercolor=white>Solution</th></tr>
+<tr>
+<td class="td">
+HDR-38765<font color="green">  &checkmark;</font>  </td>
+<td align="left" valign="top" class="issue">[Panasonic_PUWP_Win10] v19.4.31.2_Panasonic_PUWP.inf doesn't pass DCHU check.  </td>
+<td align="left" valign="top" class="issue">For v19.5.26.0, SynTPCPL.dll causes DCHU test fail.  </td>
+<td align="left" valign="top" class="issue">Remove SynTPCPL.dll  in PUWP driver.  </td>
+</tr>
+</tbody></table>
+<br>
+<div id="footer">
+</div>
+</div>
+
+<br>
+<div id="version"><div id="header"><strong>Version:  19.5.26
+
+Date: 04-06-2018</strong></div><br><br>
+<br> System enhancements<br>
+<br>
+<div id="version"><div id="header"><strong>Version:  19.5.25
+
+Date: 03-30-2018</strong></div><br><br>
+<br> Add PUWP driver for Panasonic<br>
+
+</div>
+<div style="clear: both"></div>
+<div id="footer">
+<h3> </h3>
+<p>&copy; 2013-2018 Synaptics, Inc. All rights reserved</p>
+</div>
+</div>
+</body>
+</html>
